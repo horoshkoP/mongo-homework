@@ -1,3 +1,4 @@
+const { fake } = require('faker');
 const faker = require('faker');
 
 const generateUser = ({
@@ -11,6 +12,7 @@ const generateUser = ({
   department,
   createdAt
 });
+
 
 module.exports = {
   mapUser: generateUser,
